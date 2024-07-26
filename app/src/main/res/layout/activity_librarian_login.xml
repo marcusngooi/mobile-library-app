@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/iv_content_description_logo"/>
+
+    <EditText
+        android:id="@+id/et_librarian_id"
+        android:layout_width="250sp"
+        android:layout_height="48sp"
+        android:inputType="text"
+        android:hint="@string/et_hint_librarian_id"
+        android:autofillHints="librarianId" />
+
+    <EditText
+        android:id="@+id/et_librarian_password"
+        android:layout_width="250sp"
+        android:layout_height="48sp"
+        android:inputType="textPassword"
+        android:autofillHints="librarianPassword"
+        android:hint="@string/et_hint_librarian_password" />
+
+    <Button
+        android:id="@+id/btn_librarian_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_text_librarian_login_two" />
+
+</LinearLayout>

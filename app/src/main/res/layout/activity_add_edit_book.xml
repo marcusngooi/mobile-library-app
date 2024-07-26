@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AddEditBookActivity">
+
+    <EditText
+        android:id="@+id/et_book_name"
+        android:layout_width="450sp"
+        android:layout_height="48sp"
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/et_hint_enter_book_name"
+        android:inputType="text"
+        android:autofillHints="bookName" />
+
+    <EditText
+        android:id="@+id/et_author_name"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_below="@id/et_book_name"
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="start|top"
+        android:hint="@string/et_hint_enter_author_name"
+        android:inputType="text"
+        android:autofillHints="authorName"/>
+
+    <EditText
+        android:id="@+id/et_book_description"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_below="@id/et_author_name"
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="start|top"
+        android:hint="@string/et_hint_enter_book_description"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:autofillHints="bookDescription"
+        />
+
+    <TextView
+        android:id="@+id/tv_category_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_book_description"
+        android:layout_margin="5sp"
+        android:text="@string/tv_text_choose_a_category" />
+
+    <RadioGroup
+        android:id="@+id/rg_category_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_category_options"
+        android:layout_margin="10sp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_option_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:text="@string/book_category_name_fiction" />
+
+        <RadioButton
+            android:id="@+id/rb_option_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:text="@string/book_category_name_non_fiction" />
+
+        <RadioButton
+            android:id="@+id/rb_option_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:text="@string/book_category_name_educational" />
+
+        <RadioButton
+            android:id="@+id/rb_option_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:text="@string/book_category_name_history" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_below="@id/rg_category_options"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="quantity"
+        android:gravity="start|top"
+        android:hint="@string/et_hint_enter_quantity"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_update_book_save"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

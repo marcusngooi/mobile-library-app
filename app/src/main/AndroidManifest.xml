@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".LibraryApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IkamjotMarcus_COMP304Sec402_Lab4_Group12">
+        <activity
+            android:name=".view.StudentBorrowBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.StudentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.StudentSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.StudentProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LibrarianLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LibrarianDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.AddEditBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

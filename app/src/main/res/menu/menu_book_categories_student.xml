@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/student_fiction"
+        android:title="@string/book_category_name_fiction">
+    </item>
+    <item
+        android:id="@+id/student_non_fiction"
+        android:title="@string/book_category_name_non_fiction">
+    </item>
+    <item
+        android:id="@+id/student_educational"
+        android:title="@string/book_category_name_educational">
+    </item>
+    <item
+        android:id="@+id/student_history"
+        android:title="@string/book_category_name_history">
+    </item>
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile">
+    </item>
+
+</menu>

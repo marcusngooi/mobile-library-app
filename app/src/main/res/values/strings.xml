@@ -1,0 +1,101 @@
+<resources>
+    <!--Authentication-->
+    <string name="log_tag_auth_success">AUTH SUCCESS</string>
+    <string name="log_msg_auth_success">AUTHENTICATION SUCCESSFUL!</string>
+    <string name="log_tag_auth_fail">AUTH FAIL</string>
+    <string name="log_msg_auth_fail">AUTHENTICATION FAIL!</string>
+
+    <!--Category-->
+    <string name="book_category_name_fiction">Fiction</string>
+    <string name="book_category_name_non_fiction">Non-Fiction</string>
+    <string name="book_category_name_educational">Educational</string>
+    <string name="book_category_name_history">History</string>
+
+    <!--Misc-->
+    <string name="app_name">IkamjotMarcus_COMP304Sec402_Lab4_Group12</string>
+    <string name="pref_file_key">library</string>
+    <string name="pref_student_id">STUDENT_ID</string>
+    <string name="pref_default_string">""</string>
+    <string name="iv_content_description_logo">Logo</string>
+
+    <!--MainActivity-Specific-->
+    <string name="iv_content_description_row_of_books">Row of books</string>
+    <string name="btn_text_librarian_login">Librarian Login</string>
+    <string name="log_tag_librarian_login_page">LIBRARIAN LOGIN PAGE</string>
+    <string name="log_msg_librarian_login_page">LIBRARIAN LOGIN PAGE BUTTON CLICKED!</string>
+    <string name="toast_text_welcome_librarian_login_screen">Welcome to the Librarian Login Screen!</string>
+    <string name="btn_text_student_login">Student Login</string>
+    <string name="btn_text_student_sign_up">Student Sign Up</string>
+    <string name="log_tag_student_login_page">STUDENT LOGIN PAGE</string>
+    <string name="log_msg_student_login_page">STUDENT LOGIN PAGE BUTTON CLICKED!</string>
+    <string name="toast_text_welcome_student_login_screen">Welcome to the Student Login Screen!</string>
+    <string name="log_tag_student_sign_up_page">STUDENT SIGN UP PAGE</string>
+    <string name="log_msg_student_sign_up_page">STUDENT SIGN UP PAGE BUTTON CLICKED!</string>
+    <string name="toast_text_welcome_student_sign_up_screen">Welcome to the Student Sign Up Screen!</string>
+    <string name="toast_text_welcome_student_dashboard">Welcome to Students Dashboard</string>
+    <string name="et_hint_enter_student_id">Enter Student ID</string>
+
+    <!--LibrarianLoginActivity-Specific-->
+    <string name="et_hint_librarian_id">LibrarianID</string>
+    <string name="et_hint_librarian_password">LibrarianPassword</string>
+    <string name="btn_text_librarian_login_two">Librarian Login</string>
+    <string name="log_tag_librarian_login">LIBRARIAN LOGIN</string>
+    <string name="log_msg_librarian_login">LIBRARIAN LOGIN BUTTON CLICKED!</string>
+    <string name="toast_text_welcome_librarian_dashboard">Welcome to the Librarian Dashboard!</string>
+    <string name="toast_text_auth_success">Authentication Successful!</string>
+    <string name="toast_text_auth_fail">Authentication Failed!</string>
+
+    <!--LibrarianDashboardActivity and/or AddEditBookActivity-Specific-->
+    <string name="fab_content_description_add_button">Add Button</string>
+    <string name="et_hint_enter_book_name">Enter Book Name</string>
+    <string name="et_hint_enter_author_name">Enter Author Name</string>
+    <string name="et_hint_enter_book_description">Enter Book Description</string>
+    <string name="btn_update_book_save">Save</string>
+    <string name="et_hint_enter_quantity">Enter Quantity</string>
+    <string name="tv_text_choose_a_category">Choose a Category:</string>
+    <string name="btn_text_save_update_book">Update Book</string>
+    <string name="btn_text_save_save_book">Save Book</string>
+    <string name="intent_extra_name_book_type">bookType</string>
+    <string name="intent_extra_name_book_name">bookName</string>
+    <string name="intent_extra_name_author_name">authorName</string>
+    <string name="intent_extra_name_book_description">bookDescription</string>
+    <string name="intent_extra_name_category">category</string>
+    <string name="intent_extra_name_quantity">quantity</string>
+    <string name="intent_extra_name_book_id">bookId</string>
+    <string name="add_edit_book_type_edit">Edit</string>
+    <string name="toast_text_book_updated">Book Updated!</string>
+    <string name="log_tag_add_edit_book_activity">ADD EDIT BOOK ACTIVITY</string>
+    <string name="log_msg_invalid_id_or_quantity">INVALID BOOK ID OR QUANTITY!</string>
+    <string name="toast_text_book_added">Book Added!</string>
+    <string name="toast_text_book_deleted">%s deleted!</string>
+
+    <!--StudentLoginActivity and/or StudentSignUpActivity-Specific-->
+    <string name="go_back_to_main_page">Go Back to Main Page</string>
+    <string name="et_hint_enter_student_password">Enter Student Password</string>
+    <string name="toast_text_book_student_created_already">Student is already created</string>
+
+    <!--StudentProfileActivity-Specific-->
+    <string name="tv_text_profile_burrowed_book_title">Burrowed Book:</string>
+    <string name="btn_text_student_profile_show_burrowed_book">Show Burrowed Book</string>
+    <string name="tv_text_student_profile_student_id">Student ID: %s</string>
+    <string name="tv_text_student_profile_first_name">First Name: %s</string>
+    <string name="tv_text_student_profile_last_name">Last Name: %s</string>
+    <string name="tv_text_student_profile_book_name">Name: %s</string>
+    <string name="tv_text_student_profile_author_name">Author: %s</string>
+    <string name="tv_text_student_profile_category">Category: %s</string>
+
+    <!--StudentBorrowBookActivity-Specific-->
+    <string name="btn_book_borrow">Borrow</string>
+    <string name="toast_text_out_of_stock">Out of Stock</string>
+
+    <!--UNSORTED-->
+
+    <string name="et_hint_enter_student_first_name">Enter Student First Name</string>
+    <string name="et_hint_enter_student_s_last_name">Enter Student\'s Last Name</string>
+
+    <string name="profile">Profile</string>
+
+
+
+
+</resources>

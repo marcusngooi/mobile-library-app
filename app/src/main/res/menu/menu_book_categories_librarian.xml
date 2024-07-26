@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/librarian_fiction"
+        android:title="@string/book_category_name_fiction">
+    </item>
+    <item
+        android:id="@+id/librarian_non_fiction"
+        android:title="@string/book_category_name_non_fiction">
+    </item>
+    <item
+        android:id="@+id/librarian_educational"
+        android:title="@string/book_category_name_educational">
+    </item>
+    <item
+        android:id="@+id/librarian_history"
+        android:title="@string/book_category_name_history">
+    </item>
+</menu>

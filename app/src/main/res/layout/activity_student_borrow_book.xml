@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.StudentBorrowBookActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_student_book_borrow_book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"/>
+    <TextView
+        android:id="@+id/tv_student_book_borrow_author_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"/>
+    <TextView
+        android:id="@+id/tv_student_book_borrow_book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"/>
+    <TextView
+        android:id="@+id/tv_student_book_borrow_book_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"/>
+
+    <Button
+        android:id="@+id/btn_borrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/btn_book_borrow"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
